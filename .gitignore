@@ -1,0 +1,29 @@
+# ---- Secretos (NUNCA subir) ----
+.env
+.venv
+*.env
+!.env.example
+
+# ---- Python ----
+venv/
+__pycache__/
+*.pyc
+
+# ---- Flutter / Android ----
+flutter_application_1/build/
+flutter_application_1/.dart_tool/
+flutter_application_1/.idea/
+flutter_application_1/.gradle/
+flutter_application_1/android/.gradle/
+flutter_application_1/android/local.properties
+flutter_application_1/.flutter-plugins*
+flutter_application_1/*.iml
+flutter_application_1/pubspec.lock.bak
+*.apk
+!docs/*.apk
+
+# ---- Sistema / IDE ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
